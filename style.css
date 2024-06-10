@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=ZCOOL+KuaiLe&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shojumaru&family=ZCOOL+KuaiLe&display=swap');
+
+
+
+
 .zcool-kuaile-regular {
     font-family: "ZCOOL KuaiLe", sans-serif;
     font-weight: 400;
@@ -40,41 +47,126 @@
     left: 150px;
     bottom: 600px;
 
-    
+
 
 }
 
 #famer1>nav>.navtogle {
-    
-  
-    /* height: none; */
-    border: 1px solid red;
-    font-family: ZCOOL KuaiLe;
-    width: Fixed (583px)px;
-    height: Hug (52px)px;
-    /* top: 40px; */
-    /* left: -103px; */
-    padding: 16px 24px 16px 24px;
-    /* gap: 24px; */
-    /* border-radius: 20px 0px 0px 0px; */
-    opacity: 0px;
 
     display: flex;
+    flex-direction: column;
+    align-items: center;
 
-    
+    /* height: none; */
+    /* border: 1px solid red; */
+    font-family: ZCOOL KuaiLe;
+    /* width: Fixed (583px)px; */
+    /* height: Hug (52px)px; */
+    /* top: 40px; */
+    /* left: -103px; */
+    /* padding: 16px 24px 16px 24px; */
+    /* gap: 24px; */
+    /* border-radius: 20px ; */
+    opacity: 0px;
+
 
 }
 
 #famer1>nav>.navbtn {
-    border: 1px solid red;
-
+    /* border: 1px solid red; */
+     border: none;
     width: 127px;
     height: 38px;
-    top: 48px;
-    left: 695px;
-    padding: 10px 16px 10px 16px;
-    gap: 6.18px;
-    border-radius: 15.44px 0px 0px 0px;
+    position: absolute;
+    top: 78px;
+    left: 1295px;
+    border-radius: 15.44px;
     opacity: 0px;
+
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    background: linear-gradient(93.73deg, #ED0137 20.19%, #F05733 88.3%);
+    ;
+
+}
+
+#famer1>#hero-center{
+    /* border: 2px solid red; */
+    font-family: Shojumaru;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 53.55px;
+    text-align: center;
+    color: rgba(251, 246, 246, 1);
+
+}
+
+/* frame 2 */
+
+#frame2{
+    background: rgba(25, 24, 24, 1);
+
+}
+#frame2>.img2{
+    /* width: 795px; */
+    /* height: 795px; */
+    position: relative ;
+    top: 05px;
+    left: 922px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+#frame2>.intro{
+   
+}
+#frame2>.intro>h1{
+    font-family: Shojumaru;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 52.36px;
+    text-align: left;
+    color: rgba(237, 1, 55, 1);
+    position: absolute;
+    top: 850px;
+    left: 50px;
+    
+}
+#frame2>.intro>p{
+    position: absolute;
+    top: 950px;
+    left: 50px;
+
+    font-family: ZCOOL KuaiLe;
+font-size: 24px;
+/* font-weight: 20; */
+row-gap: 40px;
+width: 50%;
+line-height: 28.56px;
+text-align: left;
+justify-content: center;
+color: rgba(255, 252, 253, 1);
+
+
+}
+#frame2>.intro>button{
+    font-family: ZCOOL KuaiLe;
+font-size: 20.03px;
+font-weight: 400;
+line-height: 20.03px;
+/* text-align: left; */
+background: linear-gradient(93.73deg, #D51B46 10.19%, #EE6910 98.19%);
+position: absolute;
+top: 1200px;
+left: 50px;
+
+height: 3cap;
+width: 150px;
+border-radius: 20px;
+border: none;
 
 }
