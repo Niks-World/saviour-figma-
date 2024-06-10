@@ -159,7 +159,7 @@ body{
 
 #frame2>.intro>p {
     position: absolute;
-    top: 950px;
+    top: 960px;
     left: 50px;
 
     font-family: ZCOOL KuaiLe;
@@ -183,8 +183,8 @@ body{
     /* text-align: left; */
     background: linear-gradient(93.73deg, #D51B46 10.19%, #EE6910 98.19%);
     position: absolute;
-    top: 1200px;
-    left: 50px;
+    top: 1250px;
+    left: 60px;
 
     height: 3cap;
     width: 150px;
@@ -241,51 +241,56 @@ body{
     height: 100%;
     width: 100%;
 }
+/* footer */
 
-footer>#foot{
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
     background:rgb(17,1,1);
-
+    width: 97%;
 }
 
-footer>#foot>h1{
-    font-family: Poppins;
-    font-size: 24px;
-    /* font-weight: 700; */
-    width: 10%;
-    line-height: 25.64px;
-    letter-spacing: 1.7090909481048584px;
+#foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+}
+
+#foot img {
+    height: 150px; 
+}
+
+#foot h1 {
+    margin-top: 10px; 
     color: linear-gradient(92.23deg, #FF002A 5.2%, #720005 90.93%);
     background: linear-gradient(92.23deg, #FF002A 5.2%, #720005 90.93%);
-    margin-left: 45%;
 
-
-    
 }
-footer>#foot>h3{
-    font-family: Poppins;
-    font-size: 12.82px;
-    /* font-weight: 600; */
-    /* line-height: 19.23px; */
-    text-align: center;
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; 
+    margin-top: 20px; 
+}
+
+.links h3 {
+    margin: 0 10px; 
+    font-family: Poppins; 
     color: white;
-    display: grid;
-
-
-  /* grid-row: center; */
-    
 }
-footer>#icon{
-/* border: 1px solid red; */
-    text-align: center;
-/* align-items: center; */
+
+#icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+    gap: 20px;
 }
-footer>#foot>img{
-    /* border: 1px solid red; */
-    /* display: inline; */
-    position: relative;
-    left: 45%;
- margin-top: 10%;
 
-
+#icon i {
+    font-size: 24px; 
 }
