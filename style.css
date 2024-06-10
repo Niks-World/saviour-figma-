@@ -233,3 +233,51 @@ body{
     height: 100%;
     width: 100%;
 }
+
+footer>#foot{
+    background:rgb(17,1,1);
+
+}
+
+footer>#foot>h1{
+    font-family: Poppins;
+    font-size: 24px;
+    /* font-weight: 700; */
+    width: 10%;
+    line-height: 25.64px;
+    letter-spacing: 1.7090909481048584px;
+    text-align: center;
+    color: linear-gradient(92.23deg, #FF002A 5.2%, #720005 90.93%);
+    background: linear-gradient(92.23deg, #FF002A 5.2%, #720005 90.93%);
+    margin-left: 45%;
+
+
+    
+}
+footer>#foot>h3{
+    font-family: Poppins;
+    font-size: 12.82px;
+    /* font-weight: 600; */
+    /* line-height: 19.23px; */
+    text-align: center;
+    color: white;
+    display: grid;
+
+
+  /* grid-row: center; */
+    
+}
+footer>#icon{
+/* border: 1px solid red; */
+    text-align: center;
+/* align-items: center; */
+}
+footer>#foot>img{
+    /* border: 1px solid red; */
+    /* display: inline; */
+    position: relative;
+    left: 45%;
+ margin-top: 10%;
+
+
+}
