@@ -193,53 +193,118 @@ body{
 
 }
 
+
+
 /* frame 3 */
-#frame3{
-    background-image: url(https://s3-alpha-sig.figma.com/img/7fb8/c9c7/2e63edc105c3925cfa651946f437c2fd?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hdP4FLyi9hVrXDZhu1xm9L3ho0v8OKkB2uEC1Q2VUIwedrjQGJvvuelZxHfak0co7qxBFm9Vs8uKST261p3Hh7rV2bs31kDMfcA5ljHhLSiigOhQegHekqCIsMBQ9tuMc1e9x2zwcdx6T6bsp~fwlfzWX4k4xSWiTRVpLL2z~Vhrhge~W6Ny7Q5rUKreHEHAlSxc~5iIUxcq3VobS4K4fddRoH5cbpL6GRPjW7lcBi84uGqsmKkB0arUBFnCkokaQ1Fb8-FTVlsd6LUXI1zFPdYUMK-izTHT9UDjlTKJxyhPWAzLXqhhGOrVwbqEWNFBp3UznRm6-8a6JZd8Kzo-FQ__) ;
-    width: 1450px;
-    height: 788px;
-
-   /* opacity: 10%; */
-    
-
+#frame3 {
+    position: relative;
+    width: 1455px;
+    height: 716px;
+  
 }
-#frame3>h1{
-    font-family: Shojumaru;
-    font-size: 44px;
+
+#frame3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://s3-alpha-sig.figma.com/img/7fb8/c9c7/2e63edc105c3925cfa651946f437c2fd?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hdP4FLyi9hVrXDZhu1xm9L3ho0v8OKkB2uEC1Q2VUIwedrjQGJvvuelZxHfak0co7qxBFm9Vs8uKST261p3Hh7rV2bs31kDMfcA5ljHhLSiigOhQegHekqCIsMBQ9tuMc1e9x2zwcdx6T6bsp~fwlfzWX4k4xSWiTRVpLL2z~Vhrhge~W6Ny7Q5rUKreHEHAlSxc~5iIUxcq3VobS4K4fddRoH5cbpL6GRPjW7lcBi84uGqsmKkB0arUBFnCkokaQ1Fb8-FTVlsd6LUXI1zFPdYUMK-izTHT9UDjlTKJxyhPWAzLXqhhGOrVwbqEWNFBp3UznRm6-8a6JZd8Kzo-FQ__');
+    background-size: cover;
+    opacity: 10%;
+    z-index: 1; 
+}
+
+#frame3 > h1 {
+
+    position: absolute;
+    width: 382px;
+    height: 52px;
+    left: calc(50% - 141px);
+    top: 64px;
+    font-family: 'Shojumaru';
     font-weight: 400;
-    line-height: 52.36px;
+    font-size: 44px;
+   
+    color: #ED0137;
     text-align: center;
-    padding-top: 10px;
-    margin-top: 35px;
-    color: rgba(237, 1, 55, 1);
-    /* opacity: 1000%; */
-
-    
 }
-#frame3>.card{
+
+.card {
+    position: absolute;
     width: 1159.1px;
     height: 349px;
-    top: 228px;
     left: 161px;
-    padding: 0px;
-    gap: 0px;
-    opacity: 0px;
-    
+    top: 228px;
+    display: flex;
+    gap: 30px; /* Adjust gap as needed */
 }
-#frame3>.card>.box{
+
+.box {
+    position: relative;
     width: 237.06px;
     height: 349px;
-    gap: 0px;
-    border-radius: 13.17px 0px 0px 0px;
-    opacity: 0px;
-    border: 2px solid rgba(237, 1, 55, 1) ;    
-}
-#frame3>.card>.box>img{
+    border-radius: 13.1698px;
+    isolation: isolate;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
-#frame3>img{
-    height: 100%;
+
+.box .pseudo {
+    position: absolute;
+    width: 239.25px;
+    height: 351.2px;
+    left: -1.1px;
+    top: -1.1px;
+    background: linear-gradient(336.22deg, #ED0137 0%, #EF490F 98.46%);
+    border-radius: 13.1698px;
+    z-index: 0;
+    
+}
+
+.box .inner-box {
+    position: absolute;
+    width: 234.86px;
+    height: 346.81px;
+    left: 1.1px;
+    top: 1.1px;
+    background: #060818;
+    border-radius: 13.1698px;
+    z-index: 1;
+}
+
+.box .content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 13.1698px;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.box .content img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.box .content::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(10, 28, 61, 0.2) 70%, rgba(237, 1, 55, 0.09) 100%);
+    border-radius: 13.1698px;
+    z-index: 3;
 }
 /* footer */
 
