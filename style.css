@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+
+.zcool-kuaile-regular {
+    font-family: "ZCOOL KuaiLe", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#famer1 {
+    background-image: url(https://s3-alpha-sig.figma.com/img/894b/df6e/56b90bbef82ad188765f40d12a46caef?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EZX~W-t56ghYs-JI3U81XEqojE3Z4UzHP8YxTo9a3YGqMVlHqd86q6OPdoMy6qDHtklUzvWYCuPFxWs6wU35M7lVGj6zyjGRfMDMCu654yzQDX0yDUhZ4nSb0IjrH3meLZSUh9TFE-3TCkvHGzz2GBVQiv1HE4IHSnuXA3Dr16BXVfWl6~1HmkLO9y0wh0DSjMIVp8a16j28tDB0ui36-lCnwFkrUgCi49z6fec03pL8kwOo3df4PcViJ2qqyNNDMwnjpm64lGt9TruH16Lg7iKgOiFC1SrpMdpBtKgwXykI8cLt6Z9eeqBaQgsQAaH8BUcyp6TsI55JL~JQyixbKg__);
+    width: 1450px;
+    height: 788px;
+    top: -6px;
+    left: -601px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+#famer1>nav>.img {
+
+    width: 106px;
+    height: 117px;
+    top: 21px;
+    left: -513px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+#famer1>nav>div>h1 {
+    /* border: 1px solid red; */
+    font-family: ZCOOL KuaiLe;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    /* text-align: center; */
+    color: white;
+    position: absolute;
+    left: 150px;
+    bottom: 600px;
+
+    
+
+}
+
+#famer1>nav>.navtogle {
+    
+  
+    /* height: none; */
+    border: 1px solid red;
+    font-family: ZCOOL KuaiLe;
+    width: Fixed (583px)px;
+    height: Hug (52px)px;
+    /* top: 40px; */
+    /* left: -103px; */
+    padding: 16px 24px 16px 24px;
+    /* gap: 24px; */
+    /* border-radius: 20px 0px 0px 0px; */
+    opacity: 0px;
+
+    display: flex;
+
+    
+
+}
+
+#famer1>nav>.navbtn {
+    border: 1px solid red;
+
+    width: 127px;
+    height: 38px;
+    top: 48px;
+    left: 695px;
+    padding: 10px 16px 10px 16px;
+    gap: 6.18px;
+    border-radius: 15.44px 0px 0px 0px;
+    opacity: 0px;
+
+}
